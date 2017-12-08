@@ -31,7 +31,9 @@ dependencies {
             'org.springframework.boot:spring-boot-starter-web',
             'org.springframework.boot:spring-boot-starter-actuator',
             'org.springframework.cloud:spring-cloud-starter-zuul',
-            'org.springframework.cloud:spring-cloud-starter-eureka'
+            'org.springframework.cloud:spring-cloud-starter-eureka',
+            'io.springfox:springfox-swagger2:2.7.0',
+            'io.springfox:springfox-swagger-ui:2.7.0'
 }
 
 dependencyManagement {
